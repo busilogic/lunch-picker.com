@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="description"
+          content="Can't decide where to eat for lunch? Let the wheel decide for you.">
+    <meta name="author" content="kiran">
+    <meta charset="UTF-8">
+
+    <!--Let browser know website is optimized for mobile    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+          maximum-scale=1.0, user-scalable=no"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">     
+    </script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto'
+          rel='stylesheet' type='text/css'>
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js">
+     
+    </script>
+    
+    <style type="text/css">
+
+     body {
+       background-image: url('restaurant_icons.png');
+       background-repeat: repeat;
+       font-family: 'Roboto', serif;
+     }
+     #wheel {
+     width: 1000px;
+     height:600px;
+     margin: 0px auto;
+     padding-left: 18%;     
+     //border: 1px dashed red;
+     }
+     
+    </style>
+
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="section">
+
+        <!--   Wheel   -->
+        <div class="row">
+          <div class="col s12 m12">
+
+            <center>
+            <h3 style="color: #ADADAD">Lunch Picker </h3>
+            <div id="wheel" >
+              <canvas id="canvas" width="1000" height="600"></canvas>
+            </div><!-- ./wheel -->
+            </center>                        
+          </div><!-- ./col -->
+        </div> <!-- ./row -->
+        
+        <div class="row">
+          <div class="col s12 m6 offset-m3">
+            
+            <form>
+              <div class="row">              
+                <div class="input-field col s12 m12">                
+                  <input placeholder="cafe/restaurant to eat at" id="newVenue"
+                         type="text" class="validate">
+                  <label for="newVenue">Add Venue, Press Enter</label>
+                </div>
+            </form>              
+              </div><!-- ./form -->
+          </div>          
+        </div>
+        <div class="row">
+      <div class="col s12 m8 offset-m2">
+        <div class="card-panel">
+
+          <table class="hoverable responsive-table bordered" id="venueTable">
+            <thead>
+              <tr>
+                <th data-field="id">Venue name</th>
+                <th data-field="name">Show on wheel</th>
+
+              </tr>
+            </thead>
+
+        <tbody>
+          <tr class="defaultVenue">
+            <td><h4 class="venue">Andrew's Hamburgers</h4></td>
+            <td>
+              <!-- Switch -->
+              <div class="switch">
+                <label>
+                  Hide
+                  <input type="checkbox" checked="">
+                  <span class="lever"></span>
+                  Show
+                </label>
+              </div>
+            </td>
+
+          </tr>
+          <tr class="defaultVenue">
+            <td><h4 class="venue">Taco Truck</h4></td>
+            <td>
+              <!-- Switch -->
+              <div class="switch">
+                <label>
+                  Hide
+                  <input type="checkbox" checked="">
+                  <span class="lever"></span>
+                  Show
+                </label>
+              </div>
+            </td>
+
+          </tr>
+          <tr class="defaultVenue">
+            <td><h4 class="venue">Tyrone Lannister</h4></td>
+            <td>
+              <!-- Switch -->
+              <div class="switch">
+                <label>
+                  Hide
+                  <input type="checkbox" checked="">
+                  <span class="lever"></span>
+                  Show
+                </label>
+              </div>
+            </td>
+
+          </tr>
+          <!-- Tr to Clone -->          
+          <tr id="tr-venue" class="venuerow" style="display: none;">
+            <td><h4 class="venue"></h4></td>
+            <td>
+              <!-- Switch -->
+              <div class="switch">
+                <label>
+                  Hide
+                  <input type="checkbox" checked="">
+                  <span class="lever"></span>
+                  Show
+                </label>
+              </div>
+            </td>
+
+          </tr>          
+
+          
+
+        </tbody>
+      </table>
+      <div class="card-action">
+        <a id="clearAll" href="#">Clear all</a>
+      </div>
+      
+        </div>
+      </div>
+    </div>
+            
+          </div>
+        </div>        
+
+        <div id="stats">
+          <div id="counter"></div>
+        </div>
+        
+
+      </div>
+      <br><br>
+    
+    </div>
+
+    <script src="js/js.cookie.js"></script>
+    <script src="js/app.js?v=6"></script>    
+
+    <!-- Google Analytics -->    
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     
+     ga('create', 'UA-61220294-1', 'auto');
+     ga('send', 'pageview');
+     
+    </script>
+
+  </body>
+  
+</html>
+

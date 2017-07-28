@@ -1,0 +1,201 @@
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:20:36,53: call of method toGMTString
+Property not found in
+/private/var/folders/jb/0pgbkwjx7xvd912gt4hhd2jm0000gn/T/flow/flowlib_26632625/lib/core.js:206:1,254:1: Date
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:50:1,7: assignment of identifier shuffle
+Could not resolve name
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:51:41,67: function call
+Error:
+/Users/kbusi/Devel/lunch-picker/js/app.js:51:50,66: number
+This type is incompatible with
+/private/var/folders/jb/0pgbkwjx7xvd912gt4hhd2jm0000gn/T/flow/flowlib_26632625/lib/core.js:17:35,40: string
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:55:1,64:1: assignment of property hashCode
+Property not found in
+/private/var/folders/jb/0pgbkwjx7xvd912gt4hhd2jm0000gn/T/flow/flowlib_26632625/lib/core.js:166:1,192:1: String
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:58:10,10: assignment of identifier i
+Could not resolve name
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:59:9,12: assignment of identifier char
+Could not resolve name
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:66:1,68:1: assignment of property mod
+Property not found in
+/private/var/folders/jb/0pgbkwjx7xvd912gt4hhd2jm0000gn/T/flow/flowlib_26632625/lib/core.js:70:1,87:1: Number
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:116:13,23: property sound
+Property not found in
+/Users/kbusi/Devel/lunch-picker/js/app.js:72:13,343:1: object literal
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:179:9,27: assignment of property sound
+Property not found in
+/Users/kbusi/Devel/lunch-picker/js/app.js:72:13,343:1: object literal
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:206:25,35: 
+Use array literal instead of new Array(..)
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:210:9,35: assignment of property seg_color
+Property not found in
+/Users/kbusi/Devel/lunch-picker/js/app.js:72:13,343:1: object literal
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:223:9,38: call of method clearRect
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:232:9,25: assignment of property lineWidth
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:233:9,35: assignment of property strokeStyle
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:234:9,33: assignment of property fileStyle
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:236:9,23: call of method beginPath
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:238:9,48: call of method moveTo
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:239:9,53: call of method lineTo
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:240:9,53: call of method lineTo
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:241:9,23: call of method closePath
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:243:9,20: call of method stroke
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:244:9,18: call of method fill
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:250:9,30: assignment of property textAlign
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:251:9,35: assignment of property textBaseline
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:252:9,30: assignment of property fillStyle
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:253:9,31: assignment of property font
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:254:9,69: call of method fillText
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:265:22,36: property seg_color
+Property not found in
+/Users/kbusi/Devel/lunch-picker/js/app.js:72:13,343:1: object literal
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:269:9,18: call of method save
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:270:9,23: call of method beginPath
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:273:9,36: call of method moveTo
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:274:9,64: call of method arc
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:275:9,36: call of method lineTo
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:278:9,23: call of method closePath
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:280:9,35: assignment of property fillStyle
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:281:9,18: call of method fill
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:282:9,20: call of method stroke
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:285:9,18: call of method save
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:286:9,39: call of method translate
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:287:9,43: call of method rotate
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:289:9,30: assignment of property fillStyle
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:290:9,59: call of method fillText
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:291:9,21: call of method restore
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:293:9,21: call of method restore
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:313:9,25: assignment of property lineWidth
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:314:9,32: assignment of property strokeStyle
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:315:9,35: assignment of property textBaseline
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:316:9,32: assignment of property textAlign
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:317:9,33: assignment of property font
+Property cannot be assigned on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+/Users/kbusi/Devel/lunch-picker/js/app.js:325:9,23: call of method beginPath
+Method cannot be called on possibly null value
+/Users/kbusi/Devel/lunch-picker/js/app.js:82:20,23: null
+
+... 24 more errors (only 50 out of 74 errors displayed)
+To see all errors, re-run Flow with --show-all-errors
